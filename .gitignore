@@ -1,0 +1,33 @@
+# --- Python Bytecode (Vom System erstellt, nicht hochladen!) ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtuelle Umgebungen (Virtual Environments) ---
+# Hier liegen die installierten Bibliotheken (sind riesig & systemspezifisch)
+venv/
+env/
+.venv/
+.env/
+
+# --- Distributions- / Build-Dateien ---
+build/
+dist/
+*.egg-info/
+
+# --- Sicherheit / Konfiguration (WICHTIG!) ---
+# Niemals Passwörter oder API-Keys hochladen
+.env
+config.py
+secrets.json
+
+# --- Tools & Editoren (Linux & IDEs) ---
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+
+# --- Logs und Datenbanken ---
+*.log
+*.sqlite3
